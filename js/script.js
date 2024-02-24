@@ -112,7 +112,7 @@ const displaySearchResults = (results) =>{
         const div = document.createElement('div');
         div.classList.add('card');
         div.innerHTML = ` 
-        <a href="${global.search.type}.html?id=${result.id}">
+        <a href="${global.search.type}-details.html?id=${result.id}">
         ${result.poster_path? `<img
         src="https://image.tmdb.org/t/p/w500/${result.poster_path}"
         class="card-img-top"
