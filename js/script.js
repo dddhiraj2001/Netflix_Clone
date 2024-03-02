@@ -16,6 +16,8 @@ const global = {
 const displayPopularMovies = async()=>{
 
     const {results} = await fetchDataFromAPI('movie/popular');
+    console.log(results)
+    console.log(results)
     
     results.forEach(movie => {
         const div = document.createElement('div');
